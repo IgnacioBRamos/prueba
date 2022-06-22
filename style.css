@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(243, 213, 200, 0.268)
+}
+
+/*Header*/
+.header{
+    position: sticky;
+    top: 0%;
+    background-color:rgba(243, 213, 200, 0.402);
+    
+}
+
+.logo{
+    width: 100px;
+    margin: 20px;
+}
+ 
+.barranav{
+    align-self: center;
+}
+
+
+.barranav__ul{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none
+}
+
+/* .lista__links{
+    display: inline-block;
+} */
+
+.links{
+    font-size: 20px;
+    font-family: 'Tai Heritage Pro', serif;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Fin header*/
+
+/*Section portada*/
+.fotoportada{
+    width: 100%;  
+}
+/*Fin section portada*/
+
+/* Section nosotros */
+.imagen_nosotros{
+    width: 70%;
+    height: 20%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.descripcion_nosotros{
+    font-family: 'Tai Heritage Pro', serif;
+    align-self: center;
+    font-size: 20px;
+    margin-left:100px;
+}
+/* Fin section nosotros */
+
+/*Section variedades*/
+
+.imagenesvariedades{
+    
+    width: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.31);
+
+}
+
+.link__variedades{
+    text-align: center;
+    padding: 100px 0px 0px 0px; 
+}
+    
+.div__link__variedades{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+/*Fin section variedades*/
+
+.titulo{
+    text-align: center;
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: 40px;
+    padding: 50px;
+}
+
+
+
+
+/*section envios*/
+
+.imagenenvios{
+    width: 100%;
+    
+}
+.loremenvios{
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: 20px;
+    
+}
+/*Fin section envios*/
+
+/*Section Contactanos*/ /*Esto selectores estan compartidos en el footer de la pagina menu.html*/
+.mapa{
+    width: 100%;
+    
+}
+
+.logo__redes{
+    width: 40px;
+}
+
+
+.infocontactanos{
+    
+    font-size: 20px;
+    margin: 10px 20px;
+    font-family: 'Tai Heritage Pro', serif;
+    align-self: center;
+}
+.infocontactanos__h6{
+    padding: 3px;
+
+}
+
+/*Fin Section Contactanos*/
+
+
+
+
+/*Pagina menu.html*/
+
+.productos{ /*Este selector esta compartido en la parte de "section variedades" etiqueta p y en el archivo menu.html en la section*/
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: 20px;
+    padding: 0px 70px;
+}
+
+.descripcion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    
+} 
+
+.division{
+    margin: 30px 300px;
+}
+
+
+.div__productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.cont_img-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+}
+
+.cont_img-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+
+
+
+
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+
+
+
+.logos__redes{
+    display: flex;
+    flex-direction: row;
+    padding: 10px; 
+    margin-left: -20px; 
+}
+
+.logos__redes .instagram{
+    margin: 0px 15px;
+}
+
+
+
+
+
+
+.nosotross{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+/*  GRID */
+
+
+
+
+/* .grid__principal {
+    display: grid;
+    grid-template-rows: repeat(6, 500px);
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.header{
+    grid-row: 1/2;
+}
+
+.section__portada{
+    grid-row: 2/3;
+}
+
+.section .nosotrooss{
+    grid-row: 3/4;
+}
+.section .variedades{
+    grid-row: 4/5;
+}
+
+.section .envios{
+    grid-row: 5/6;
+}
+.footer{
+    grid-row: 6/7;
+} */

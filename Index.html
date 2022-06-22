@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    <title>Cafetería</title>
+</head>
+
+<body class="grid__principal">
+    <div id="Inicio"></div>
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <a href="#Inicio">
+                    <img src="Multimedia/logocafeteria.png" alt="Logo de la Cafeteria" class="logo">
+                </a>
+            </div>
+            <!-- La idea seria que este nav se moviera conforme se va scrolleando hacia abajo.Asi, si deseo volver al inicio hago click en estos links-->
+            <div class="barranav">
+                <ul class="barranav__ul">
+                    <li class="lista__links">
+                        <a href="#Inicio" class="links">Inicio</a>
+                    </li>
+                    <li class="lista__links">
+                        <a href="#Nosotros" class="links">Nosotros</a>
+                    </li>
+                    <li class="lista__links">
+                        <a href="#Variedades" class="links">Variedades</a>
+                    </li>
+                    <li class="lista__links">
+                        <a href="menu.html" target="_blank" class="links">Menu</a>
+                    </li>
+                    <li class="lista__links">
+                        <a href="#Envios" class="links">Envios</a>
+                    </li>
+                    <li class="lista__links">
+                        <a href="#Contactanos" class="links">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--Section portada-->
+    <section class="section__portada">
+        <img src="Multimedia/cafeportada.png" alt="fotoportada" class="fotoportada">
+    </section>
+    <!--Fin section portada-->
+
+    <!--Section Nosotros-->
+    <section class="section nosotrooss">
+        <p id="Nosotros">
+            <h2 class="titulo">Nosotros</h2>
+        </p>
+        <div class="nosotross">
+            <img src="Multimedia/Cafeteria.jpg" alt="Paisaje de una cafeteria" class="imagen_nosotros">
+            <p class="descripcion_nosotros">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga odio
+                exercitationem voluptates eos necessitatibus? Ipsum in, aut eveniet provident explicabo dolor dicta
+                similique officiis? At natus placeat quasi veniam.
+                Omnis in itaque quae architecto, soluta illo, exercitationem ipsa dicta laudantium nostrum et quos
+                nihil adipisci vel! Facilis eos obcaecati accusamus ad, molestiae ea nulla blanditiis accusantium
+                quisquam voluptatem iste?
+            </p>
+        </div>
+    </section>
+    <!--Fin Section Nosotros-->
+
+    <!--Section Variedades-->
+    <section class="section variedades">
+        <!-- Seria una muestra de la variedad de productos y para ir ver el menu completo esta el link "ver todos los productos" -->
+        <p id="Variedades">
+            <h2 class="titulo">Variedades</h2>
+        </p>
+        <div class="cont_img-1">
+            <img src="Multimedia/productos/Medialunas.jpg" alt="imagen producto 1" class="imagenesvariedades">
+            
+            
+            <img src="Multimedia/productos/lemonpie.jfif" alt="imagen producto 2" class="imagenesvariedades">
+            
+            <img src="Multimedia/productos/rogel.jfif" alt="imagen producto 3" class="imagenesvariedades">
+            
+            <img src="Multimedia/productos/chocotorta.jfif" alt="imagen producto 4" class="imagenesvariedades">
+        </div>
+        
+        <div class="div__productos">
+            <p class="productos">Producto 1</p>
+            <p class="productos">Producto 2</p>
+            <p class="productos">Producto 3</p>
+            <p class="productos">Producto 4</p>
+        </div>
+
+
+        <div class="cont_img-2">
+            <img src="Multimedia/productos/brownie.jfif" alt="imagen producto 5" class="imagenesvariedades">
+
+            <img src="Multimedia/productos/Medialunas.jpg" alt="imagen producto 6" class="imagenesvariedades">
+
+            <img src="Multimedia/productos/Medialunas.jpg" alt="imagen producto 7" class="imagenesvariedades">
+
+            <img src="Multimedia/productos/Medialunas.jpg" alt="imagen producto 8" class="imagenesvariedades">
+        </div>
+        <div class="div__productos">
+            <p class="productos">Producto 5</p>
+            <p class="productos">Producto 6</p>
+            <p class="productos">Producto 7</p>
+            <p class="productos">Producto 8</p>
+
+        </div>
+
+
+
+
+
+
+        <div class="link__variedades">
+            <a href="menu.html" target="_blank" class="div__link__variedades">Ver todos los productos</a>
+        </div>
+    </section>
+    <!-- Fin Section variedades-->
+
+    <!-- Section Envios -->
+    <section class="section envios">
+        <!-- En esta seccion se detallaria las formas y los horarios en las que se reciben y envian los pedidos, todo esto sobre una imagen transparente-->
+        <div id="Envios">
+            <h2 class="titulo">Envios</h2>
+        </div>
+        <img src="Multimedia/Cafe envio.png" alt="" class="imagenenvios">
+        <p class="loremenvios">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque optio iure ut ipsum
+            repudiandae assumenda,
+            saepe alias deserunt maiores, dolorum iusto hic dignissimos labore sunt obcaecati incidunt. Consectetur,
+            libero pariatur.</p>
+    </section>
+    <!-- Fin Section Envios -->
+
+
+    <!-- Footer Contactanos -->
+    <footer class="footer">
+        <div id="Contactanos">
+            <h2 class="titulo">Contactanos</h2>
+        </div>
+
+        <!-- Es un punto del mapa cualquiera que representaria donde estaria ubicado el lugar-->
+        <!-- La idea en el footer seria un formulario un poco sobrepuesto sobre el mapa y a los costados el logo del local que te devuelve al inicio, los iconos de las redes sociales e informacion por ej: direccion, email y telefono. -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13137.707806489158!2d-58.43208323053615!3d-34.5933637674378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb568b018e969%3A0x92c141d8fb0735c7!2zT2xpIGNhZsOp!5e0!3m2!1ses-419!2sar!4v1653858053246!5m2!1ses-419!2sar"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            class="mapa"></iframe>
+
+        <form action=""></form>
+
+        <div class="footer__info">
+            <div>
+                <div>
+                    <a href="#Inicio">
+                        <img src="Multimedia/logocafeteria.png" alt="Logo de la cafeteria" class="logo">
+                    </a>
+                </div>
+                <div class="logos__redes">
+                    <div>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="multimedia/logofacebook.png" alt="logofacebook" class="logo__redes facebook">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="multimedia/logoinstagram.jpg" alt="logo Instagram" class="logo__redes instagram">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="multimedia/logotwitter.png" alt="logo twitter" class="logo__redes twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="infocontactanos">
+                <h6 class="infocontactanos__h6">Direccion123</h6>
+                <h6 class="infocontactanos__h6">Email@hotmail.com</h6>
+                <h6 class="infocontactanos__h6">telefono333333333</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
